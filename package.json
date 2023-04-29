@@ -28,6 +28,10 @@
     "grunt-typescript": "^0.8.0",
     "matchdep": "^1.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RR-Sahoo/3d-interior"
+  },
   "scripts": {
     "build": "browserify src/blueprint3d.js > example/js/blueprint3d.js --verbose"
   },
